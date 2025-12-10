@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSVP | Keshi Birthday & REQUIEM Listening Party</title>
+    <meta name="description" content="Reserve your spot for Keshi's exclusive birthday celebration and REQUIEM album listening party. Limited capacity—RSVP now to secure your place.">
+    <meta property="og:title" content="RSVP | Keshi Birthday & REQUIEM Listening Party">
+    <meta property="og:description" content="Reserve your spot for Keshi's exclusive birthday celebration. Limited capacity available.">
+    <meta property="og:image" content="https://i8.amplience.net/i/naras/Keshi_Press_Photo_Credit_Angella_Choe">
+    <meta property="og:url" content="https://yourusername.github.io/keshi-party/rsvp.html">
+    <link rel="icon" href="favicon.png" />
+    <meta name="theme-color" content="#0a0a0a">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="https://shop.keshimusic.com/cdn/shop/files/keshi-logo-BDB69F.png?v=1720448080&width=531" alt="Keshi logo" class="logo">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="album.html">Album</a></li>
+                <li><a href="rsvp.html">RSVP</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <section class="rsvp-section">
+            <h1>Reserve Your Spot</h1>
+            <p class="rsvp-intro">
+                Limited capacity available. Secure your place at this exclusive celebration and be among the first to experience REQUIEM in its entirety.
+            </p>
+
+            <div class="rsvp-form-container">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required aria-required="true">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required aria-required="true">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+
+                <div class="form-group">
+                    <label for="guests">Number of Guests</label>
+                    <select id="guests" name="guests">
+                        <option value="1">1 Guest</option>
+                        <option value="2">2 Guests</option>
+                        <option value="3">3 Guests</option>
+                        <option value="4">4 Guests</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Special Requests or Message</label>
+                    <textarea id="message" name="message" placeholder="Any dietary restrictions, accessibility needs, or messages for the birthday celebration..."></textarea>
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="merch" name="merch">
+                    <label for="merch">I'm interested in exclusive event merchandise</label>
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="updates" name="updates">
+                    <label for="updates">Send me updates about future Keshi events</label>
+                </div>
+
+                <button type="button" class="submit-button">Confirm RSVP</button>
+
+                <div class="info-note">
+                    <strong>Important:</strong> You will receive a confirmation email within 24 hours. Please bring a valid ID and your confirmation to the event. Doors open 30 minutes before showtime. This is an intimate, confined listening experience—please arrive on time.
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Keshi Birthday & Listening Party. All rights reserved. Photo credit: Angella Choe</p>
+    </footer>
+</body>
+</html>
