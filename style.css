@@ -275,7 +275,7 @@ footer p {
 }
 
 .tracklist {
-    background: #590404;
+    background: #636363;
     border: 2px solid rgba(189, 183, 159, 0.3);
     padding: 3rem;
     backdrop-filter: blur(5px);
@@ -321,7 +321,7 @@ footer p {
 }
 
 .listening-experience {
-    background: rgba(20, 15, 25, 0.8);
+    background: background);
     border: 2px solid rgba(189, 183, 159, 0.3);
     padding: 3rem;
     backdrop-filter: blur(5px);
@@ -348,7 +348,7 @@ footer p {
 
 .feature {
     padding: 2rem;
-    background: rgba(10, 10, 10, 0.6);
+    background: #636363;
     border: 1px solid rgba(189, 183, 159, 0.2);
     transition: all 0.3s ease;
 }
@@ -382,7 +382,7 @@ footer p {
 }
 
 .rsvp-form-container {
-    background: rgba(20, 15, 25, 0.8);
+    background: #636363;
     border: 2px solid rgba(189, 183, 159, 0.3);
     padding: 3rem;
     backdrop-filter: blur(5px);
@@ -457,7 +457,7 @@ input[type="checkbox"] {
 }
 
 .info-note {
-    background: rgba(189, 183, 159, 0.1);
+    background: #636363;
     border-left: 3px solid #bdb79f;
     padding: 1.5rem;
     margin-top: 2rem;
