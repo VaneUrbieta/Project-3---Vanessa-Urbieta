@@ -5,7 +5,7 @@
 
 
 body {
-    font-family: 'Courier New', monospace;
+    font-family: 'Orbitron', Rajdhani;
     background: linear-gradient(rgba(10, 10, 10, 0.85), rgba(20, 15, 25, 0.95)), 
                 url('https://i8.amplience.net/i/naras/Keshi_Press_Photo_Credit_Angella_Choe') center/cover fixed;
     color: #e0e0e0;
@@ -151,7 +151,7 @@ h2 {
     text-transform: uppercase;
     position: relative;
     overflow: hidden;
-    font-family: 'Courier New', monospace;
+    font-family: 'Orbitron', monospace;
 }
 
 .cta-button::before,
@@ -415,7 +415,7 @@ textarea {
     background: rgba(10, 10, 10, 0.7);
     border: 1px solid rgba(189, 183, 159, 0.3);
     color: #e0e0e0;
-    font-family: 'Courier New', monospace;
+    font-family: 'avenir', monospace;
     font-size: 1rem;
     transition: all 0.3s ease;
 }
