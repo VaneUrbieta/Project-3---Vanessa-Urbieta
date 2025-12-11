@@ -131,7 +131,7 @@ h1 {
 h2 {
    font-family: 'Amarante', serif;
     font-size: 2rem;
-    color: #bdb79f;
+    color: #590c0c;
     text-transform: uppercase;
     letter-spacing: 3px;
     margin-bottom: 2rem;
@@ -202,7 +202,7 @@ footer {
 }
 
 footer p {
-    color: #8a8572;
+    color: #590404;
     font-size: 0.9rem;
 }
 
@@ -236,7 +236,7 @@ footer p {
 
 .event-details:hover {
     transform: translateY(-10px);
-    border-color: rgba(189, 183, 159, 0.6);
+    border-color: #590404;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
 }
 
@@ -275,7 +275,7 @@ footer p {
 }
 
 .tracklist {
-    background: rgba(20, 15, 25, 0.8);
+    background: #590404;
     border: 2px solid rgba(189, 183, 159, 0.3);
     padding: 3rem;
     backdrop-filter: blur(5px);
@@ -305,7 +305,7 @@ footer p {
 
 .track-number {
     font-size: 1.5rem;
-    color: #bdb79f;
+    color: #700404;
     font-weight: bold;
     min-width: 60px;
 }
@@ -359,7 +359,7 @@ footer p {
 }
 
 .feature h3 {
-    color: #bdb79f;
+    color: #4d0505;
     margin-bottom: 1rem;
     font-size: 1.3rem;
     text-transform: uppercase;
