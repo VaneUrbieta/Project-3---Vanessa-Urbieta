@@ -114,6 +114,7 @@ main {
 
 /* Typography */
 h1 {
+    font-family: 'Amarante', serif;
     font-size: clamp(2.5rem, 6vw, 5rem);
     font-weight: 900;
     letter-spacing: 3px;
@@ -128,6 +129,7 @@ h1 {
 }
 
 h2 {
+   font-family: 'Amarante', serif;
     font-size: 2rem;
     color: #bdb79f;
     text-transform: uppercase;
