@@ -151,7 +151,7 @@ h2 {
     text-transform: uppercase;
     position: relative;
     overflow: hidden;
-    font-family: 'Orbitron', monospace;
+    font-family: 'Avenir', monospace;
 }
 
 .cta-button::before,
